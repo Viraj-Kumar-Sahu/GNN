@@ -341,7 +341,3 @@ This repository is pre-configured for deployment as a standard Web Service on Re
 - **Frontend Layer**: Zero third-party JavaScript frameworks; written in pure HTML5, modern CSS custom properties, and Vanilla JS.
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
