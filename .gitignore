@@ -21,6 +21,18 @@ venv.bak/
 .env.*
 !.env.example
 
+# Model Weights, Checkpoints & Data Files
+*.onnx
+*.onnx.data
+*.data
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Duplicate/Backup Folders
+Project/
+
 # Logs & Temporary Test Files
 *.log
 test.onnx*
