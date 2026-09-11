@@ -44,15 +44,15 @@ graph TD
     Planetoid["Cora Dataset Storage (data/Planetoid)"]
     StaticMeta["Static Node Metadata (Static/cora_nodes_data.json)"]
 
-    Client -->|HTTP GET /| FastAPI
-    Client -->|HTTP GET /static assets| FastAPI
-    Client -->|Fetch Static Metadata| StaticMeta
-    Client -->|POST /predict/cora_node| FastAPI
-    Client -->|POST /predict (Custom Graph)| FastAPI
-    FastAPI -->|Extract Node Features & Edges| Planetoid
-    FastAPI -->|Tensor Feed & Inference| ONNX
-    ONNX -->|Logits & Probabilities| FastAPI
-    FastAPI -->|JSON Response| Client
+    Client -->|"HTTP GET /"| FastAPI
+    Client -->|"HTTP GET /static assets"| FastAPI
+    Client -->|"Fetch Static Metadata"| StaticMeta
+    Client -->|"POST /predict/cora_node"| FastAPI
+    Client -->|"POST /predict (Custom Graph)"| FastAPI
+    FastAPI -->|"Extract Node Features and Edges"| Planetoid
+    FastAPI -->|"Tensor Feed and Inference"| ONNX
+    ONNX -->|"Logits and Probabilities"| FastAPI
+    FastAPI -->|"JSON Response"| Client
 ```
 
 ---
