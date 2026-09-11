@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs & Temporary Test Files
+*.log
+test.onnx*
+*.tmp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Unit test & Coverage Reports
+.pytest_cache/
+.coverage
+htmlcov/
